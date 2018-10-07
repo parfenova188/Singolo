@@ -1,0 +1,10 @@
+.nav-item {
+  
+  &:not(:last-child)::after {
+  content: "\00B7";
+  margin-left: 9px;
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+}

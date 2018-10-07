@@ -1,0 +1,10 @@
+.section-about {
+  @extend %section-p;
+  @extend %section-light;
+
+  .row {
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+}

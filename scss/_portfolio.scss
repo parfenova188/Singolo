@@ -1,0 +1,13 @@
+.section-portfolio {
+  @extend %section-p;
+  @extend %section-dark;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.portfolio-gallery__item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

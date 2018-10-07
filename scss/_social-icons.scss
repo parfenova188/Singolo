@@ -1,0 +1,51 @@
+.list-inline {
+  a {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    /* background: url("../img/spritesheet.png") no-repeat; */
+    margin-left: 40%;
+    margin-bottom: 10%;
+  }
+}
+
+.list-inline-item {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  a {
+    &::after {
+      content: "";
+      width: 32px;
+      height: 32px;
+      border: 1px solid #6f7590;
+      position: absolute;
+      border-radius: 50%;
+      left: 0;
+      bottom: 0;
+      top: 0;
+      right: 0;
+      margin: auto;
+    }
+  }
+}
+
+.facebook {
+  /* background-position: 0 0;  */
+  background: url(../img/spritesheet.png) 0 -2px no-repeat;
+}
+
+.google-plus {
+  background: url(../img/spritesheet.png) -20px -2px no-repeat;
+}
+
+.twitter {
+  background: url(../img/spritesheet.png) -3px -25px no-repeat;
+}
+
+.linked-in {
+  background: url(../img/spritesheet.png) -45px -2px no-repeat;
+}

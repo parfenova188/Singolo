@@ -1,0 +1,24 @@
+
+.section-carousel {
+  @extend %section-p;
+  @extend %section-red;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../img/arrow-right.png");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../img/arrow-left.png");
+}
+
+.carousel-control-next {
+  left: 100%;
+}
+
+.carousel-control-prev {
+  right: 100%;
+  left: auto;
+}
+
+
